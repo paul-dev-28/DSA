@@ -1,24 +1,16 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        short int c=0;
-        int k=0;
-        for(short int i=0;i<nums.size();i++)
+        sort(nums.begin(), nums.end());
+        int n=nums.size();
+        if (n==1)
+            return nums[0];
+        
+        for(int i=0;i<n-1;i+=2)
         {
-            c=0;
-            for(short int j=i+1;j<nums.size();j++)
-            {
-                if (nums[j]==nums[i])
-                {
-                    nums.erase(nums.begin()+j);
-                    c++;
-                    break;
-                }
-            }
-            if (c!=1)
-                 k=nums[i];
-            
+            if(nums[i]!=nums[i+1])
+                return nums[i];
         }
-        return k;
+        return nums[n-1];
     }
 };
