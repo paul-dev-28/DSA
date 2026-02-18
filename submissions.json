@@ -820,6 +820,17 @@
     ]
   },
   {
+    "id": 1979,
+    "title": "Find Greatest Common Divisor of Array",
+    "title_slug": "find-greatest-common-divisor-of-array",
+    "difficulty": "Easy",
+    "skills": [
+      "Array",
+      "Math",
+      "Number Theory"
+    ]
+  },
+  {
     "id": 1984,
     "title": "Minimum Difference Between Highest and Lowest of K Scores",
     "title_slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
