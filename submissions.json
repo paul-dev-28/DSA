@@ -1250,5 +1250,15 @@
       "Bit Manipulation",
       "Enumeration"
     ]
+  },
+  {
+    "id": 3847,
+    "title": "Find the Score Difference in a Game",
+    "title_slug": "find-the-score-difference-in-a-game",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Simulation"
+    ]
   }
 ]
