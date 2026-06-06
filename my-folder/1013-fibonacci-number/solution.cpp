@@ -1,19 +1,17 @@
 class Solution {
 public:
     int fib(int n) {
+        int a=0,b=1,c=0;
         if (n==0)
-            return 0;
-        else if (n==1)
-            return 1;
-        else
-            return fib(n-1)+fib(n-2);
-        
-    }
-    void main()
-    {
-        int n;
-        std::cin >> n;
-        if (n>=0 && n <=30)
-            std::cout << fib(n);
+            return a;
+        if (n==1 || n==2)
+            return b;
+        for(int i=1;i<n;i++)
+        {
+            c=a+b;
+            a=b;
+            b=c;
+        }
+        return c;
     }
 };
