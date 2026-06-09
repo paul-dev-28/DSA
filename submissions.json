@@ -776,6 +776,16 @@
     ]
   },
   {
+    "id": 1021,
+    "title": "Remove Outermost Parentheses",
+    "title_slug": "remove-outermost-parentheses",
+    "difficulty": "Easy",
+    "skills": [
+      "Stack",
+      "String"
+    ]
+  },
+  {
     "id": 1022,
     "title": "Sum of Root To Leaf Binary Numbers",
     "title_slug": "sum-of-root-to-leaf-binary-numbers",
