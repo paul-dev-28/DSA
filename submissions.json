@@ -2136,5 +2136,12 @@
       "Dynamic Programming",
       "Enumeration"
     ]
+  },
+  {
+    "id": 3959,
+    "title": "Check Good Integer",
+    "title_slug": "check-good-integer",
+    "difficulty": "Easy",
+    "skills": []
   }
 ]
