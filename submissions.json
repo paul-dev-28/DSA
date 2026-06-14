@@ -2145,6 +2145,13 @@
     "skills": []
   },
   {
+    "id": 3960,
+    "title": "Frequency Balance Subarray",
+    "title_slug": "frequency-balance-subarray",
+    "difficulty": "Medium",
+    "skills": []
+  },
+  {
     "id": 3961,
     "title": "Maximize Sum of Device Ratings",
     "title_slug": "maximize-sum-of-device-ratings",
