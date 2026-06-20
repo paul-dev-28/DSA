@@ -1,28 +1,14 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        int a,b;
-        int n=nums.size();
-
-        if(n==0){
-            return {-1,-1};
+        vector<int> ans={-1,-1};
+        int lb=lower_bound(nums.begin(),nums.end(),target)-nums.begin();
+        int ub=upper_bound(nums.begin(),nums.end(),target)-nums.begin();
+        if (lb!=nums.size() && nums[lb]==target)
+        {
+            ans[0]=lb;
+            ans[1]=ub-1;
         }
-        for(int i=0;i<n;i++){
-            if(target==nums[i]){
-                a=i;
-                break;
-            }
-            else if(i==n-1){
-                return {-1,-1};
-            }
-
-        }
-        for(int i=n-1;i>=0;i--){
-            if(target==nums[i]){
-                b=i;
-                break;
-            }
-        }
-    return {a,b};
+        return ans;
     }
 };
