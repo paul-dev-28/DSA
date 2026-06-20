@@ -1,15 +1,21 @@
 class Solution {
 public:
-    int singleNonDuplicate(vector<int>& nums) {
-        int c=0;
-        if (nums.size()==1)
-            return nums[0];
-        while(c<nums.size())
+    
+    int singleNonDuplicate(vector<int>& nums)
+    {
+        int l = 0; 
+        int r = nums.size()-1;
+        int mid; 
+        while(l<r)
         {
-            if (nums[c]!=nums[c+1])
-                return nums[c];
-            c+=2;
+            mid = l+(r-l)/2;
+            if(mid %2 != 0)
+                mid--;
+            if((nums[mid] == nums[mid+1]))
+                l = mid+2;
+            else
+                r = mid;
         }
-        return (nums[c]);
+        return nums[l];
     }
 };
