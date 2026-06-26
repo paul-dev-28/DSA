@@ -1112,6 +1112,18 @@
     ]
   },
   {
+    "id": 455,
+    "title": "Assign Cookies",
+    "title_slug": "assign-cookies",
+    "difficulty": "Easy",
+    "skills": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Two Pointers"
+    ]
+  },
+  {
     "id": 476,
     "title": "Number Complement",
     "title_slug": "number-complement",
