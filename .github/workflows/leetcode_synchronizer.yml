@@ -1,8 +1,9 @@
 name: LeetCode Synchronizer
 
 on:
-  workflow_dispatch
-
+  workflow_dispatch:
+  schedule:
+  - cron: "30 18 * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
