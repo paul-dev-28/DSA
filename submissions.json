@@ -869,643 +869,290 @@
     ]
   },
   {
-    "id": 326,
-    "title": "Power of Three",
-    "title_slug": "power-of-three",
+    "id": 191,
+    "title": "Number of 1 Bits",
+    "title_slug": "number-of-1-bits",
     "difficulty": "Easy",
     "skills": [
+      "Bit Manipulation",
+      "Divide and Conquer"
+    ]
+  },
+  {
+    "id": 199,
+    "title": "Binary Tree Right Side View",
+    "title_slug": "binary-tree-right-side-view",
+    "difficulty": "Medium",
+    "skills": [
+      "Binary Tree",
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Tree"
+    ]
+  },
+  {
+    "id": 200,
+    "title": "Number of Islands",
+    "title_slug": "number-of-islands",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Matrix",
+      "Union-Find"
+    ]
+  },
+  {
+    "id": 202,
+    "title": "Happy Number",
+    "title_slug": "happy-number",
+    "difficulty": "Easy",
+    "skills": [
+      "Hash Table",
+      "Math",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Reverse Linked List",
+    "title_slug": "reverse-linked-list",
+    "difficulty": "Easy",
+    "skills": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  {
+    "id": 207,
+    "title": "Course Schedule",
+    "title_slug": "course-schedule",
+    "difficulty": "Medium",
+    "skills": [
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Graph Theory",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": 209,
+    "title": "Minimum Size Subarray Sum",
+    "title_slug": "minimum-size-subarray-sum",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Binary Search",
+      "Prefix Sum",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": 210,
+    "title": "Course Schedule II",
+    "title_slug": "course-schedule-ii",
+    "difficulty": "Medium",
+    "skills": [
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Graph Theory",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": 215,
+    "title": "Kth Largest Element in an Array",
+    "title_slug": "kth-largest-element-in-an-array",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Divide and Conquer",
+      "Heap (Priority Queue)",
+      "Quickselect",
+      "Sorting"
+    ]
+  },
+  {
+    "id": 217,
+    "title": "Contains Duplicate",
+    "title_slug": "contains-duplicate",
+    "difficulty": "Easy",
+    "skills": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ]
+  },
+  {
+    "id": 219,
+    "title": "Contains Duplicate II",
+    "title_slug": "contains-duplicate-ii",
+    "difficulty": "Easy",
+    "skills": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": 222,
+    "title": "Count Complete Tree Nodes",
+    "title_slug": "count-complete-tree-nodes",
+    "difficulty": "Medium",
+    "skills": [
+      "Binary Search",
+      "Binary Tree",
+      "Bit Manipulation",
+      "Tree"
+    ]
+  },
+  {
+    "id": 229,
+    "title": "Majority Element II",
+    "title_slug": "majority-element-ii",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Counting",
+      "Hash Table",
+      "Sorting"
+    ]
+  },
+  {
+    "id": 230,
+    "title": "Kth Smallest Element in a BST",
+    "title_slug": "kth-smallest-element-in-a-bst",
+    "difficulty": "Medium",
+    "skills": [
+      "Binary Search Tree",
+      "Binary Tree",
+      "Depth-First Search",
+      "Tree"
+    ]
+  },
+  {
+    "id": 231,
+    "title": "Power of Two",
+    "title_slug": "power-of-two",
+    "difficulty": "Easy",
+    "skills": [
+      "Bit Manipulation",
       "Math",
       "Recursion"
     ]
   },
   {
-    "id": 328,
-    "title": "Odd Even Linked List",
-    "title_slug": "odd-even-linked-list",
+    "id": 234,
+    "title": "Palindrome Linked List",
+    "title_slug": "palindrome-linked-list",
+    "difficulty": "Easy",
+    "skills": [
+      "Linked List",
+      "Recursion",
+      "Stack",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": 235,
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "title_slug": "lowest-common-ancestor-of-a-binary-search-tree",
+    "difficulty": "Medium",
+    "skills": [
+      "Binary Search Tree",
+      "Binary Tree",
+      "Depth-First Search",
+      "Tree"
+    ]
+  },
+  {
+    "id": 236,
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "title_slug": "lowest-common-ancestor-of-a-binary-tree",
+    "difficulty": "Medium",
+    "skills": [
+      "Binary Tree",
+      "Depth-First Search",
+      "Tree"
+    ]
+  },
+  {
+    "id": 237,
+    "title": "Delete Node in a Linked List",
+    "title_slug": "delete-node-in-a-linked-list",
     "difficulty": "Medium",
     "skills": [
       "Linked List"
     ]
   },
   {
-    "id": 334,
-    "title": "Increasing Triplet Subsequence",
-    "title_slug": "increasing-triplet-subsequence",
+    "id": 238,
+    "title": "Product of Array Except Self",
+    "title_slug": "product-of-array-except-self",
     "difficulty": "Medium",
     "skills": [
       "Array",
-      "Greedy"
-    ]
-  },
-  {
-    "id": 338,
-    "title": "Counting Bits",
-    "title_slug": "counting-bits",
-    "difficulty": "Easy",
-    "skills": [
-      "Bit Manipulation",
-      "Dynamic Programming"
-    ]
-  },
-  {
-    "id": 342,
-    "title": "Power of Four",
-    "title_slug": "power-of-four",
-    "difficulty": "Easy",
-    "skills": [
-      "Bit Manipulation",
-      "Math",
-      "Recursion"
-    ]
-  },
-  {
-    "id": 344,
-    "title": "Reverse String",
-    "title_slug": "reverse-string",
-    "difficulty": "Easy",
-    "skills": [
-      "String",
-      "Two Pointers"
-    ]
-  },
-  {
-    "id": 345,
-    "title": "Reverse Vowels of a String",
-    "title_slug": "reverse-vowels-of-a-string",
-    "difficulty": "Easy",
-    "skills": [
-      "String",
-      "Two Pointers"
-    ]
-  },
-  {
-    "id": 349,
-    "title": "Intersection of Two Arrays",
-    "title_slug": "intersection-of-two-arrays",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Binary Search",
-      "Hash Table",
-      "Sorting",
-      "Two Pointers"
-    ]
-  },
-  {
-    "id": 350,
-    "title": "Intersection of Two Arrays II",
-    "title_slug": "intersection-of-two-arrays-ii",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Binary Search",
-      "Hash Table",
-      "Sorting",
-      "Two Pointers"
-    ]
-  },
-  {
-    "id": 367,
-    "title": "Valid Perfect Square",
-    "title_slug": "valid-perfect-square",
-    "difficulty": "Easy",
-    "skills": [
-      "Binary Search",
-      "Math"
-    ]
-  },
-  {
-    "id": 383,
-    "title": "Ransom Note",
-    "title_slug": "ransom-note",
-    "difficulty": "Easy",
-    "skills": [
-      "Counting",
-      "Hash Table",
-      "String"
-    ]
-  },
-  {
-    "id": 387,
-    "title": "First Unique Character in a String",
-    "title_slug": "first-unique-character-in-a-string",
-    "difficulty": "Easy",
-    "skills": [
-      "Counting",
-      "Hash Table",
-      "Queue",
-      "String"
-    ]
-  },
-  {
-    "id": 389,
-    "title": "Find the Difference",
-    "title_slug": "find-the-difference",
-    "difficulty": "Easy",
-    "skills": [
-      "Bit Manipulation",
-      "Hash Table",
-      "Sorting",
-      "String"
-    ]
-  },
-  {
-    "id": 392,
-    "title": "Is Subsequence",
-    "title_slug": "is-subsequence",
-    "difficulty": "Easy",
-    "skills": [
-      "Dynamic Programming",
-      "String",
-      "Two Pointers"
-    ]
-  },
-  {
-    "id": 401,
-    "title": "Binary Watch",
-    "title_slug": "binary-watch",
-    "difficulty": "Easy",
-    "skills": [
-      "Backtracking",
-      "Bit Manipulation"
-    ]
-  },
-  {
-    "id": 402,
-    "title": "Remove K Digits",
-    "title_slug": "remove-k-digits",
-    "difficulty": "Medium",
-    "skills": [
-      "Greedy",
-      "Monotonic Stack",
-      "Stack",
-      "String"
-    ]
-  },
-  {
-    "id": 409,
-    "title": "Longest Palindrome",
-    "title_slug": "longest-palindrome",
-    "difficulty": "Easy",
-    "skills": [
-      "Greedy",
-      "Hash Table",
-      "String"
-    ]
-  },
-  {
-    "id": 410,
-    "title": "Split Array Largest Sum",
-    "title_slug": "split-array-largest-sum",
-    "difficulty": "Hard",
-    "skills": [
-      "Array",
-      "Binary Search",
-      "Dynamic Programming",
-      "Greedy",
       "Prefix Sum"
     ]
   },
   {
-    "id": 412,
-    "title": "Fizz Buzz",
-    "title_slug": "fizz-buzz",
-    "difficulty": "Easy",
-    "skills": [
-      "Math",
-      "Simulation",
-      "String"
-    ]
-  },
-  {
-    "id": 414,
-    "title": "Third Maximum Number",
-    "title_slug": "third-maximum-number",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Sorting"
-    ]
-  },
-  {
-    "id": 415,
-    "title": "Add Strings",
-    "title_slug": "add-strings",
-    "difficulty": "Easy",
-    "skills": [
-      "Math",
-      "Simulation",
-      "String"
-    ]
-  },
-  {
-    "id": 424,
-    "title": "Longest Repeating Character Replacement",
-    "title_slug": "longest-repeating-character-replacement",
-    "difficulty": "Medium",
-    "skills": [
-      "Hash Table",
-      "Sliding Window",
-      "String"
-    ]
-  },
-  {
-    "id": 434,
-    "title": "Number of Segments in a String",
-    "title_slug": "number-of-segments-in-a-string",
-    "difficulty": "Easy",
-    "skills": [
-      "String"
-    ]
-  },
-  {
-    "id": 441,
-    "title": "Arranging Coins",
-    "title_slug": "arranging-coins",
-    "difficulty": "Easy",
-    "skills": [
-      "Binary Search",
-      "Math"
-    ]
-  },
-  {
-    "id": 448,
-    "title": "Find All Numbers Disappeared in an Array",
-    "title_slug": "find-all-numbers-disappeared-in-an-array",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Hash Table"
-    ]
-  },
-  {
-    "id": 450,
-    "title": "Delete Node in a BST",
-    "title_slug": "delete-node-in-a-bst",
-    "difficulty": "Medium",
-    "skills": [
-      "Binary Search Tree",
-      "Binary Tree",
-      "Tree"
-    ]
-  },
-  {
-    "id": 455,
-    "title": "Assign Cookies",
-    "title_slug": "assign-cookies",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Greedy",
-      "Sorting",
-      "Two Pointers"
-    ]
-  },
-  {
-    "id": 476,
-    "title": "Number Complement",
-    "title_slug": "number-complement",
-    "difficulty": "Easy",
-    "skills": [
-      "Bit Manipulation"
-    ]
-  },
-  {
-    "id": 482,
-    "title": "License Key Formatting",
-    "title_slug": "license-key-formatting",
-    "difficulty": "Easy",
-    "skills": [
-      "String"
-    ]
-  },
-  {
-    "id": 485,
-    "title": "Max Consecutive Ones",
-    "title_slug": "max-consecutive-ones",
-    "difficulty": "Easy",
-    "skills": [
-      "Array"
-    ]
-  },
-  {
-    "id": 496,
-    "title": "Next Greater Element I",
-    "title_slug": "next-greater-element-i",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Hash Table",
-      "Monotonic Stack",
-      "Stack"
-    ]
-  },
-  {
-    "id": 503,
-    "title": "Next Greater Element II",
-    "title_slug": "next-greater-element-ii",
-    "difficulty": "Medium",
-    "skills": [
-      "Array",
-      "Monotonic Stack",
-      "Stack"
-    ]
-  },
-  {
-    "id": 504,
-    "title": "Base 7",
-    "title_slug": "base-7",
-    "difficulty": "Easy",
-    "skills": [
-      "Math",
-      "String"
-    ]
-  },
-  {
-    "id": 506,
-    "title": "Relative Ranks",
-    "title_slug": "relative-ranks",
-    "difficulty": "Easy",
+    "id": 239,
+    "title": "Sliding Window Maximum",
+    "title_slug": "sliding-window-maximum",
+    "difficulty": "Hard",
     "skills": [
       "Array",
       "Heap (Priority Queue)",
-      "Sorting"
-    ]
-  },
-  {
-    "id": 507,
-    "title": "Perfect Number",
-    "title_slug": "perfect-number",
-    "difficulty": "Easy",
-    "skills": [
-      "Math"
-    ]
-  },
-  {
-    "id": 509,
-    "title": "Fibonacci Number",
-    "title_slug": "fibonacci-number",
-    "difficulty": "Easy",
-    "skills": [
-      "Dynamic Programming",
-      "Math",
-      "Memoization",
-      "Recursion"
-    ]
-  },
-  {
-    "id": 520,
-    "title": "Detect Capital",
-    "title_slug": "detect-capital",
-    "difficulty": "Easy",
-    "skills": [
-      "String"
-    ]
-  },
-  {
-    "id": 540,
-    "title": "Single Element in a Sorted Array",
-    "title_slug": "single-element-in-a-sorted-array",
-    "difficulty": "Medium",
-    "skills": [
-      "Array",
-      "Binary Search"
-    ]
-  },
-  {
-    "id": 542,
-    "title": "01 Matrix",
-    "title_slug": "01-matrix",
-    "difficulty": "Medium",
-    "skills": [
-      "Array",
-      "Breadth-First Search",
-      "Dynamic Programming",
-      "Matrix"
-    ]
-  },
-  {
-    "id": 543,
-    "title": "Diameter of Binary Tree",
-    "title_slug": "diameter-of-binary-tree",
-    "difficulty": "Easy",
-    "skills": [
-      "Binary Tree",
-      "Depth-First Search",
-      "Tree"
-    ]
-  },
-  {
-    "id": 547,
-    "title": "Number of Provinces",
-    "title_slug": "number-of-provinces",
-    "difficulty": "Medium",
-    "skills": [
-      "Breadth-First Search",
-      "Depth-First Search",
-      "Graph Theory",
-      "Union-Find"
-    ]
-  },
-  {
-    "id": 557,
-    "title": "Reverse Words in a String III",
-    "title_slug": "reverse-words-in-a-string-iii",
-    "difficulty": "Easy",
-    "skills": [
-      "String",
-      "Two Pointers"
-    ]
-  },
-  {
-    "id": 566,
-    "title": "Reshape the Matrix",
-    "title_slug": "reshape-the-matrix",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Matrix",
-      "Simulation"
-    ]
-  },
-  {
-    "id": 575,
-    "title": "Distribute Candies",
-    "title_slug": "distribute-candies",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Hash Table"
-    ]
-  },
-  {
-    "id": 605,
-    "title": "Can Place Flowers",
-    "title_slug": "can-place-flowers",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Greedy"
-    ]
-  },
-  {
-    "id": 628,
-    "title": "Maximum Product of Three Numbers",
-    "title_slug": "maximum-product-of-three-numbers",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Math",
-      "Sorting"
-    ]
-  },
-  {
-    "id": 643,
-    "title": "Maximum Average Subarray I",
-    "title_slug": "maximum-average-subarray-i",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
+      "Monotonic Queue",
+      "Queue",
       "Sliding Window"
     ]
   },
   {
-    "id": 645,
-    "title": "Set Mismatch",
-    "title_slug": "set-mismatch",
-    "difficulty": "Easy",
+    "id": 240,
+    "title": "Search a 2D Matrix II",
+    "title_slug": "search-a-2d-matrix-ii",
+    "difficulty": "Medium",
     "skills": [
       "Array",
-      "Bit Manipulation",
-      "Hash Table",
-      "Sorting"
+      "Binary Search",
+      "Divide and Conquer",
+      "Matrix"
     ]
   },
   {
-    "id": 653,
-    "title": "Two Sum IV - Input is a BST",
-    "title_slug": "two-sum-iv-input-is-a-bst",
+    "id": 242,
+    "title": "Valid Anagram",
+    "title_slug": "valid-anagram",
     "difficulty": "Easy",
     "skills": [
-      "Binary Search Tree",
-      "Binary Tree",
-      "Breadth-First Search",
-      "Depth-First Search",
       "Hash Table",
-      "Tree",
-      "Two Pointers"
-    ]
-  },
-  {
-    "id": 662,
-    "title": "Maximum Width of Binary Tree",
-    "title_slug": "maximum-width-of-binary-tree",
-    "difficulty": "Medium",
-    "skills": [
-      "Binary Tree",
-      "Breadth-First Search",
-      "Depth-First Search",
-      "Tree"
-    ]
-  },
-  {
-    "id": 665,
-    "title": "Non-decreasing Array",
-    "title_slug": "non-decreasing-array",
-    "difficulty": "Medium",
-    "skills": [
-      "Array"
-    ]
-  },
-  {
-    "id": 678,
-    "title": "Valid Parenthesis String",
-    "title_slug": "valid-parenthesis-string",
-    "difficulty": "Medium",
-    "skills": [
-      "Dynamic Programming",
-      "Greedy",
-      "Stack",
+      "Sorting",
       "String"
     ]
   },
   {
-    "id": 693,
-    "title": "Binary Number with Alternating Bits",
-    "title_slug": "binary-number-with-alternating-bits",
+    "id": 258,
+    "title": "Add Digits",
+    "title_slug": "add-digits",
     "difficulty": "Easy",
     "skills": [
-      "Bit Manipulation"
+      "Math",
+      "Number Theory",
+      "Simulation"
     ]
   },
   {
-    "id": 696,
-    "title": "Count Binary Substrings",
-    "title_slug": "count-binary-substrings",
-    "difficulty": "Easy",
-    "skills": [
-      "String",
-      "Two Pointers"
-    ]
-  },
-  {
-    "id": 700,
-    "title": "Search in a Binary Search Tree",
-    "title_slug": "search-in-a-binary-search-tree",
-    "difficulty": "Easy",
-    "skills": [
-      "Binary Search Tree",
-      "Binary Tree",
-      "Tree"
-    ]
-  },
-  {
-    "id": 701,
-    "title": "Insert into a Binary Search Tree",
-    "title_slug": "insert-into-a-binary-search-tree",
-    "difficulty": "Medium",
-    "skills": [
-      "Binary Search Tree",
-      "Binary Tree",
-      "Tree"
-    ]
-  },
-  {
-    "id": 704,
-    "title": "Binary Search",
-    "title_slug": "binary-search",
-    "difficulty": "Easy",
+    "id": 992,
+    "title": "Subarrays with K Different Integers",
+    "title_slug": "subarrays-with-k-different-integers",
+    "difficulty": "Hard",
     "skills": [
       "Array",
-      "Binary Search"
-    ]
-  },
-  {
-    "id": 709,
-    "title": "To Lower Case",
-    "title_slug": "to-lower-case",
-    "difficulty": "Easy",
-    "skills": [
-      "String"
-    ]
-  },
-  {
-    "id": 717,
-    "title": "1-bit and 2-bit Characters",
-    "title_slug": "1-bit-and-2-bit-characters",
-    "difficulty": "Easy",
-    "skills": [
-      "Array"
-    ]
-  },
-  {
-    "id": 724,
-    "title": "Find Pivot Index",
-    "title_slug": "find-pivot-index",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Prefix Sum"
+      "Counting",
+      "Hash Table",
+      "Sliding Window"
     ]
   },
   {
@@ -2145,263 +1792,6 @@
     ]
   },
   {
-    "id": 1716,
-    "title": "Calculate Money in Leetcode Bank",
-    "title_slug": "calculate-money-in-leetcode-bank",
-    "difficulty": "Easy",
-    "skills": [
-      "Math"
-    ]
-  },
-  {
-    "id": 1727,
-    "title": "Largest Submatrix With Rearrangements",
-    "title_slug": "largest-submatrix-with-rearrangements",
-    "difficulty": "Medium",
-    "skills": [
-      "Array",
-      "Greedy",
-      "Matrix",
-      "Sorting"
-    ]
-  },
-  {
-    "id": 1732,
-    "title": "Find the Highest Altitude",
-    "title_slug": "find-the-highest-altitude",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Prefix Sum"
-    ]
-  },
-  {
-    "id": 1752,
-    "title": "Check if Array Is Sorted and Rotated",
-    "title_slug": "check-if-array-is-sorted-and-rotated",
-    "difficulty": "Easy",
-    "skills": [
-      "Array"
-    ]
-  },
-  {
-    "id": 1758,
-    "title": "Minimum Changes To Make Alternating Binary String",
-    "title_slug": "minimum-changes-to-make-alternating-binary-string",
-    "difficulty": "Easy",
-    "skills": [
-      "String"
-    ]
-  },
-  {
-    "id": 1768,
-    "title": "Merge Strings Alternately",
-    "title_slug": "merge-strings-alternately",
-    "difficulty": "Easy",
-    "skills": [
-      "String",
-      "Two Pointers"
-    ]
-  },
-  {
-    "id": 1784,
-    "title": "Check if Binary String Has at Most One Segment of Ones",
-    "title_slug": "check-if-binary-string-has-at-most-one-segment-of-ones",
-    "difficulty": "Easy",
-    "skills": [
-      "String"
-    ]
-  },
-  {
-    "id": 1822,
-    "title": "Sign of the Product of an Array",
-    "title_slug": "sign-of-the-product-of-an-array",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Math"
-    ]
-  },
-  {
-    "id": 1833,
-    "title": "Maximum Ice Cream Bars",
-    "title_slug": "maximum-ice-cream-bars",
-    "difficulty": "Medium",
-    "skills": [
-      "Array",
-      "Counting Sort",
-      "Greedy",
-      "Sorting"
-    ]
-  },
-  {
-    "id": 1838,
-    "title": "Frequency of the Most Frequent Element",
-    "title_slug": "frequency-of-the-most-frequent-element",
-    "difficulty": "Medium",
-    "skills": [
-      "Array",
-      "Binary Search",
-      "Greedy",
-      "Prefix Sum",
-      "Sliding Window",
-      "Sorting"
-    ]
-  },
-  {
-    "id": 1877,
-    "title": "Minimize Maximum Pair Sum in Array",
-    "title_slug": "minimize-maximum-pair-sum-in-array",
-    "difficulty": "Medium",
-    "skills": [
-      "Array",
-      "Greedy",
-      "Sorting",
-      "Two Pointers"
-    ]
-  },
-  {
-    "id": 1878,
-    "title": "Get Biggest Three Rhombus Sums in a Grid",
-    "title_slug": "get-biggest-three-rhombus-sums-in-a-grid",
-    "difficulty": "Medium",
-    "skills": [
-      "Array",
-      "Heap (Priority Queue)",
-      "Math",
-      "Matrix",
-      "Prefix Sum",
-      "Sorting"
-    ]
-  },
-  {
-    "id": 1886,
-    "title": "Determine Whether Matrix Can Be Obtained By Rotation",
-    "title_slug": "determine-whether-matrix-can-be-obtained-by-rotation",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Matrix"
-    ]
-  },
-  {
-    "id": 1888,
-    "title": "Minimum Number of Flips to Make the Binary String Alternating",
-    "title_slug": "minimum-number-of-flips-to-make-the-binary-string-alternating",
-    "difficulty": "Medium",
-    "skills": [
-      "Dynamic Programming",
-      "Sliding Window",
-      "String"
-    ]
-  },
-  {
-    "id": 1901,
-    "title": "Find a Peak Element II",
-    "title_slug": "find-a-peak-element-ii",
-    "difficulty": "Medium",
-    "skills": [
-      "Array",
-      "Binary Search",
-      "Matrix"
-    ]
-  },
-  {
-    "id": 1903,
-    "title": "Largest Odd Number in String",
-    "title_slug": "largest-odd-number-in-string",
-    "difficulty": "Easy",
-    "skills": [
-      "Greedy",
-      "Math",
-      "String"
-    ]
-  },
-  {
-    "id": 1909,
-    "title": "Remove One Element to Make the Array Strictly Increasing",
-    "title_slug": "remove-one-element-to-make-the-array-strictly-increasing",
-    "difficulty": "Easy",
-    "skills": [
-      "Array"
-    ]
-  },
-  {
-    "id": 1929,
-    "title": "Concatenation of Array",
-    "title_slug": "concatenation-of-array",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Simulation"
-    ]
-  },
-  {
-    "id": 1935,
-    "title": "Maximum Number of Words You Can Type",
-    "title_slug": "maximum-number-of-words-you-can-type",
-    "difficulty": "Easy",
-    "skills": [
-      "Hash Table",
-      "String"
-    ]
-  },
-  {
-    "id": 1952,
-    "title": "Three Divisors",
-    "title_slug": "three-divisors",
-    "difficulty": "Easy",
-    "skills": [
-      "Enumeration",
-      "Math",
-      "Number Theory"
-    ]
-  },
-  {
-    "id": 1967,
-    "title": "Number of Strings That Appear as Substrings in Word",
-    "title_slug": "number-of-strings-that-appear-as-substrings-in-word",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "String"
-    ]
-  },
-  {
-    "id": 1979,
-    "title": "Find Greatest Common Divisor of Array",
-    "title_slug": "find-greatest-common-divisor-of-array",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Math",
-      "Number Theory"
-    ]
-  },
-  {
-    "id": 1980,
-    "title": "Find Unique Binary String",
-    "title_slug": "find-unique-binary-string",
-    "difficulty": "Medium",
-    "skills": [
-      "Array",
-      "Backtracking",
-      "Hash Table",
-      "String"
-    ]
-  },
-  {
-    "id": 1984,
-    "title": "Minimum Difference Between Highest and Lowest of K Scores",
-    "title_slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
-    "difficulty": "Easy",
-    "skills": [
-      "Array",
-      "Sliding Window",
-      "Sorting"
-    ]
-  },
-  {
     "id": 2016,
     "title": "Maximum Difference Between Increasing Elements",
     "title_slug": "maximum-difference-between-increasing-elements",
@@ -2805,6 +2195,298 @@
     "skills": [
       "Array",
       "Simulation"
+    ]
+  },
+  {
+    "id": 3432,
+    "title": "Count Partitions with Even Sum Difference",
+    "title_slug": "count-partitions-with-even-sum-difference",
+    "difficulty": "Easy",
+    "skills": [
+      "Array",
+      "Math",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": 3499,
+    "title": "Maximize Active Section with Trade I",
+    "title_slug": "maximize-active-section-with-trade-i",
+    "difficulty": "Medium",
+    "skills": [
+      "Enumeration",
+      "String"
+    ]
+  },
+  {
+    "id": 3501,
+    "title": "Maximize Active Section with Trade II",
+    "title_slug": "maximize-active-section-with-trade-ii",
+    "difficulty": "Hard",
+    "skills": [
+      "Array",
+      "Binary Search",
+      "Segment Tree",
+      "String"
+    ]
+  },
+  {
+    "id": 3507,
+    "title": "Minimum Pair Removal to Sort Array I",
+    "title_slug": "minimum-pair-removal-to-sort-array-i",
+    "difficulty": "Easy",
+    "skills": [
+      "Array",
+      "Doubly-Linked List",
+      "Hash Table",
+      "Heap (Priority Queue)",
+      "Linked List",
+      "Ordered Set",
+      "Simulation"
+    ]
+  },
+  {
+    "id": 3512,
+    "title": "Minimum Operations to Make Array Sum Divisible by K",
+    "title_slug": "minimum-operations-to-make-array-sum-divisible-by-k",
+    "difficulty": "Easy",
+    "skills": [
+      "Array",
+      "Math"
+    ]
+  },
+  {
+    "id": 3513,
+    "title": "Number of Unique XOR Triplets I",
+    "title_slug": "number-of-unique-xor-triplets-i",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Bit Manipulation",
+      "Math"
+    ]
+  },
+  {
+    "id": 3514,
+    "title": "Number of Unique XOR Triplets II",
+    "title_slug": "number-of-unique-xor-triplets-ii",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Bit Manipulation",
+      "Enumeration",
+      "Math"
+    ]
+  },
+  {
+    "id": 3516,
+    "title": "Find Closest Person",
+    "title_slug": "find-closest-person",
+    "difficulty": "Easy",
+    "skills": [
+      "Math"
+    ]
+  },
+  {
+    "id": 3532,
+    "title": "Path Existence Queries in a Graph I",
+    "title_slug": "path-existence-queries-in-a-graph-i",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Binary Search",
+      "Graph Theory",
+      "Hash Table",
+      "Union-Find"
+    ]
+  },
+  {
+    "id": 3534,
+    "title": "Path Existence Queries in a Graph II",
+    "title_slug": "path-existence-queries-in-a-graph-ii",
+    "difficulty": "Hard",
+    "skills": [
+      "Array",
+      "Binary Search",
+      "Bit Manipulation",
+      "Dynamic Programming",
+      "Graph Theory",
+      "Greedy",
+      "Sorting",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": 3536,
+    "title": "Maximum Product of Two Digits",
+    "title_slug": "maximum-product-of-two-digits",
+    "difficulty": "Easy",
+    "skills": [
+      "Math",
+      "Sorting"
+    ]
+  },
+  {
+    "id": 3541,
+    "title": "Find Most Frequent Vowel and Consonant",
+    "title_slug": "find-most-frequent-vowel-and-consonant",
+    "difficulty": "Easy",
+    "skills": [
+      "Counting",
+      "Hash Table",
+      "String"
+    ]
+  },
+  {
+    "id": 3546,
+    "title": "Equal Sum Grid Partition I",
+    "title_slug": "equal-sum-grid-partition-i",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Enumeration",
+      "Matrix",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": 3548,
+    "title": "Equal Sum Grid Partition II",
+    "title_slug": "equal-sum-grid-partition-ii",
+    "difficulty": "Hard",
+    "skills": [
+      "Array",
+      "Enumeration",
+      "Hash Table",
+      "Matrix",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": 3567,
+    "title": "Minimum Absolute Difference in Sliding Submatrix",
+    "title_slug": "minimum-absolute-difference-in-sliding-submatrix",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Matrix",
+      "Sorting"
+    ]
+  },
+  {
+    "id": 3600,
+    "title": "Maximize Spanning Tree Stability with Upgrades",
+    "title_slug": "maximize-spanning-tree-stability-with-upgrades",
+    "difficulty": "Hard",
+    "skills": [
+      "Binary Search",
+      "Graph Theory",
+      "Greedy",
+      "Minimum Spanning Tree",
+      "Union-Find"
+    ]
+  },
+  {
+    "id": 3612,
+    "title": "Process String with Special Operations I",
+    "title_slug": "process-string-with-special-operations-i",
+    "difficulty": "Medium",
+    "skills": [
+      "Simulation",
+      "String"
+    ]
+  },
+  {
+    "id": 3620,
+    "title": "Network Recovery Pathways",
+    "title_slug": "network-recovery-pathways",
+    "difficulty": "Hard",
+    "skills": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": 3634,
+    "title": "Minimum Removals to Balance Array",
+    "title_slug": "minimum-removals-to-balance-array",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Binary Search",
+      "Sliding Window",
+      "Sorting"
+    ]
+  },
+  {
+    "id": 3637,
+    "title": "Trionic Array I",
+    "title_slug": "trionic-array-i",
+    "difficulty": "Easy",
+    "skills": [
+      "Array"
+    ]
+  },
+  {
+    "id": 3640,
+    "title": "Trionic Array II",
+    "title_slug": "trionic-array-ii",
+    "difficulty": "Hard",
+    "skills": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": 3643,
+    "title": "Flip Square Submatrix Vertically",
+    "title_slug": "flip-square-submatrix-vertically",
+    "difficulty": "Easy",
+    "skills": [
+      "Array",
+      "Matrix",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": 3650,
+    "title": "Minimum Cost Path with Edge Reversals",
+    "title_slug": "minimum-cost-path-with-edge-reversals",
+    "difficulty": "Medium",
+    "skills": [
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ]
+  },
+  {
+    "id": 3866,
+    "title": "First Unique Even Element",
+    "title_slug": "first-unique-even-element",
+    "difficulty": "Easy",
+    "skills": [
+      "Array",
+      "Counting",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": 3867,
+    "title": "Sum of GCD of Formed Pairs",
+    "title_slug": "sum-of-gcd-of-formed-pairs",
+    "difficulty": "Medium",
+    "skills": [
+      "Array",
+      "Math",
+      "Number Theory",
+      "Simulation",
+      "Sorting",
+      "Two Pointers"
     ]
   },
   {
