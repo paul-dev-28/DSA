@@ -3,18 +3,19 @@ name: LeetCode Synchronizer
 on:
   workflow_dispatch:
   schedule:
-  - cron: "30 18 * * *"
-jobs:
-  build:
-    runs-on: ubuntu-latest
+    - cron: "30 18 * * *"
 
-    permissions:
-      contents: write
+permissions:
+  contents: write
+
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Run LeetCode Synchronizer
         uses: paul-dev-28/LeetCode-Synchronizer@main
         with:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
           LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
