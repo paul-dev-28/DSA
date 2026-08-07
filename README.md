@@ -64,7 +64,9 @@
 | 0119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | Easy | `Array` `Dynamic Programming` |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy | `Array` `Dynamic Programming` |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | Hard | `Binary Tree` `DP on Trees` `Depth-First Search` `Dynamic Programming` `Tree` |
-| 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | Medium | `Array` `Binary Search` |
+| 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy | `String` `Two Pointers` |
+| 0127 | [Word Ladder](https://leetcode.com/problems/word-ladder) | Hard | `Bidirectional Search` `Breadth-First Search` `Hash Table` `String` |
+| 0130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions) | Medium | `Array` `Breadth-First Search` `Depth-First Search` `Matrix` `Union-Find` |
 | 0168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) | Easy | `Math` `String` |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element) | Easy | `Array` `Boyer–Moore Majority Vote Algorithm` `Counting` `Divide and Conquer` `Hash Table` `Sorting` |
 | 0171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | Easy | `Math` `String` |
@@ -124,18 +126,7 @@
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings) | Easy | `Math` `Simulation` `String` |
 | 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | Medium | `Hash Table` `Sliding Window` `String` |
 | 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | Easy | `String` |
-| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | Easy | `Linked List` `Two Pointers` |
-| 0877 | [Stone Game](https://leetcode.com/problems/stone-game) | Medium | `Array` `Dynamic Programming` `Game Theory` `Math` `Minimax` `Zero-Sum Game` |
-| 0896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | Easy | `Array` |
-| 0907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums) | Medium | `Array` `Dynamic Programming` `Monotonic Stack` `Stack` |
-| 0921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) | Medium | `Bracket Sequences` `Greedy` `Stack` `String` |
-| 0930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum) | Medium | `Array` `Hash Table` `Prefix Sum` `Sliding Window` |
-| 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | Easy | `Array` `Longest Increasing Subsequence` `String` |
-| 0961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array) | Easy | `Array` `Hash Table` `Pigeonhole Principle` |
-| 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | Easy | `Array` `Sorting` `Two Pointers` |
-| 0987 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree) | Hard | `Binary Tree` `Breadth-First Search` `Depth-First Search` `Hash Table` `Sorting` `Tree` |
-| 0989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer) | Easy | `Array` `Math` |
-| 0992 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers) | Hard | `Array` `Counting` `Hash Table` `Sliding Window` |
+| 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins) | Easy | `Binary Search` `Math` |
 | 0994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges) | Medium | `Array` `Breadth-First Search` `Matrix` |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | Medium | `Array` `Binary Search` `Prefix Sum` `Sliding Window` |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal) | Medium | `Array` `Binary Search Tree` `Binary Tree` `Monotonic Stack` `Stack` `Tree` |
@@ -184,6 +175,123 @@
 | 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element) | Medium | `Array` `Dynamic Programming` `Sliding Window` |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | `Array` `Counting` `Hash Table` `Math` |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range) | Easy | `Math` |
+| 1536 | [Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid) | Medium | `Array` `Greedy` `Matrix` |
+| 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | Easy | `Array` `Binary Search` |
+| 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string) | Medium | `Recursion` `Simulation` `String` |
+| 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix) | Easy | `Array` `Matrix` |
+| 1594 | [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix) | Medium | `Array` `Dynamic Programming` `Matrix` |
+| 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses) | Easy | `Bracket Sequences` `Stack` `String` |
+| 1622 | [Fancy Sequence](https://leetcode.com/problems/fancy-sequence) | Hard | `Design` `Fermat's Little Theorem` `Math` `Number Theory` `Segment Tree` |
+| 1653 | [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced) | Medium | `Dynamic Programming` `Stack` `String` |
+| 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs) | Medium | `Array` `Hash Table` `Sorting` `Two Pointers` |
+| 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers) | Medium | `Bit Manipulation` `Math` `Simulation` |
+| 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers) | Medium | `Greedy` `String` |
+| 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck) | Easy | `Array` `Greedy` `Sorting` |
+| 1716 | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank) | Easy | `Math` |
+| 1727 | [Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements) | Medium | `Array` `Greedy` `Matrix` `Sorting` |
+| 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude) | Easy | `Array` `Prefix Sum` |
+| 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | Easy | `Array` |
+| 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | Easy | `String` |
+| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | Easy | `String` `Two Pointers` |
+| 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones) | Easy | `String` |
+| 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | Easy | `Array` `Math` |
+| 1833 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars) | Medium | `Array` `Counting Sort` `Greedy` `Sorting` |
+| 1838 | [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element) | Medium | `Array` `Binary Search` `Greedy` `Prefix Sum` `Sliding Window` `Sorting` |
+| 1877 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array) | Medium | `Array` `Greedy` `Sorting` `Two Pointers` |
+| 1878 | [Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid) | Medium | `Array` `Heap (Priority Queue)` `Math` `Matrix` `Prefix Sum` `Sorting` |
+| 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation) | Easy | `Array` `Matrix` |
+| 1888 | [Minimum Number of Flips to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating) | Medium | `Dynamic Programming` `Sliding Window` `String` |
+| 1901 | [Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii) | Medium | `Array` `Binary Search` `Matrix` |
+| 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string) | Easy | `Greedy` `Math` `String` |
+| 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing) | Easy | `Array` |
+| 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | Easy | `Array` `Simulation` |
+| 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type) | Easy | `Hash Table` `String` |
+| 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | Easy | `Enumeration` `Math` `Number Theory` `Prime Factorization` `Sieve Theory` |
+| 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word) | Easy | `Array` `String` |
+| 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array) | Easy | `Array` `Euclidean Algorithm` `Greatest Common Divisor` `Math` `Number Theory` |
+| 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | Medium | `Array` `Backtracking` `Hash Table` `String` |
+| 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores) | Easy | `Array` `Sliding Window` `Sorting` |
+| 2016 | [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements) | Easy | `Array` |
+| 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | Medium | `Linked List` `Two Pointers` |
+| 2104 | [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges) | Medium | `Array` `Monotonic Stack` `Stack` |
+| 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal) | Easy | `Math` |
+| 2149 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign) | Medium | `Array` `Simulation` `Two Pointers` |
+| 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | Easy | `Array` `Hash Table` `Simulation` `Sorting` |
+| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum) | Easy | `Math` `Simulation` |
+| 2197 | [Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array) | Hard | `Array` `Greatest Common Divisor` `Least Common Multiple` `Math` `Number Theory` `Stack` |
+| 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number) | Easy | `Bit Manipulation` |
+| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | `Math` |
+| 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple) | Easy | `Math` `Number Theory` |
+| 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors) | Easy | `Enumeration` `Euclidean Algorithm` `Greatest Common Divisor` `Math` `Number Theory` |
+| 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature) | Easy | `Math` |
+| 2492 | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) | Medium | `Breadth-First Search` `Depth-First Search` `Graph Theory` `Union-Find` |
+| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | Easy | `Array` `Simulation` |
+| 2587 | [Rearrange Array to Maximize Prefix Score](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score) | Medium | `Array` `Greedy` `Prefix Sum` `Sorting` |
+| 2685 | [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components) | Medium | `Breadth-First Search` `Depth-First Search` `Graph Theory` `Union-Find` |
+| 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | Easy | `Array` `Hash Table` `Sorting` |
+| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string) | Medium | `Sorting` `String` |
+| 2812 | [Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid) | Medium | `Array` `Binary Search` `Breadth-First Search` `Heap (Priority Queue)` `Matrix` `Union-Find` |
+| 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference) | Easy | `Math` |
+| 2906 | [Construct Product Matrix](https://leetcode.com/problems/construct-product-matrix) | Medium | `Array` `Matrix` `Prefix Sum` |
+| 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | Easy | `Array` `Counting` `Hash Table` |
+| 3010 | [Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i) | Easy | `Array` `Enumeration` `Sorting` |
+| 3013 | [Divide an Array Into Subarrays With Minimum Cost II](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii) | Hard | `Array` `Hash Table` `Heap (Priority Queue)` `Sliding Window` |
+| 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i) | Easy | `Greedy` `Math` `String` |
+| 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii) | Medium | `Counting` `Greedy` `Hash Table` `Sorting` `String` |
+| 3020 | [Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset) | Medium | `Array` `Enumeration` `Hash Table` |
+| 3070 | [Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k) | Medium | `Array` `Matrix` `Prefix Sum` |
+| 3074 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes) | Easy | `Array` `Greedy` `Sorting` |
+| 3129 | [Find All Possible Stable Binary Arrays I](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i) | Medium | `Dynamic Programming` `Prefix Sum` |
+| 3130 | [Find All Possible Stable Binary Arrays II](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii) | Hard | `Dynamic Programming` `Prefix Sum` |
+| 3190 | [Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three) | Easy | `Array` `Math` |
+| 3212 | [Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y) | Medium | `Array` `Matrix` `Prefix Sum` |
+| 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid) | Medium | `Array` `Breadth-First Search` `Graph Theory` `Heap (Priority Queue)` `Matrix` `Shortest Path` |
+| 3296 | [Minimum Number of Seconds to Make Mountain Height Zero](https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero) | Medium | `Array` `Binary Search` `Greedy` `Heap (Priority Queue)` `Math` |
+| 3739 | [Count Subarrays With Majority Element II](https://leetcode.com/problems/count-subarrays-with-majority-element-ii) | Hard | `Array` `Divide and Conquer` `Hash Table` `Merge Sort` `Prefix Sum` `Segment Tree` |
+| 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i) | Easy | `Math` |
+| 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii) | Medium | `Math` `Prefix Sum` `String` |
+| 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum) | Medium | `Array` `Math` `Number Theory` |
+| 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer) | Easy | `Math` |
+| 3790 | [Smallest All-Ones Multiple](https://leetcode.com/problems/smallest-all-ones-multiple) | Medium | `Hash Table` `Math` |
+| 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers) | Easy | `Bit Manipulation` `Enumeration` |
+| 3842 | [Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs) | Easy | `Array` `Hash Table` `Simulation` `Sorting` |
+| 3847 | [Find the Score Difference in a Game](https://leetcode.com/problems/find-the-score-difference-in-a-game) | Medium | `Array` `Simulation` |
+| 3852 | [Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies) | Easy | `Array` `Counting` `Hash Table` |
+| 3853 | [Merge Close Characters](https://leetcode.com/problems/merge-close-characters) | Medium | `Hash Table` `String` |
+| 3854 | [Minimum Operations to Make Array Parity Alternating](https://leetcode.com/problems/minimum-operations-to-make-array-parity-alternating) | Medium | `Array` `Greedy` |
+| 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element) | Easy | `Array` `Counting` `Hash Table` |
+| 3867 | [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs) | Medium | `Array` `Math` `Number Theory` `Simulation` `Sorting` `Two Pointers` |
+| 3870 | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range) | Easy | `Math` |
+| 3898 | [Find the Degree of Each Vertex](https://leetcode.com/problems/find-the-degree-of-each-vertex) | Easy | `Array` `Graph Theory` `Matrix` |
+| 3899 | [Angles of a Triangle](https://leetcode.com/problems/angles-of-a-triangle) | Medium | `Array` `Geometry` `Math` |
+| 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number) | Easy | `Math` |
+| 3909 | [Compare Sums of Bitonic Parts](https://leetcode.com/problems/compare-sums-of-bitonic-parts) | Medium | `Array` |
+| 3936 | [Minimum Swaps to Move Zeros to End](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end) | Easy | `Array` `Two Pointers` |
+| 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array) | Easy | `Array` `Two Pointers` |
+| 3941 | [Password Strength](https://leetcode.com/problems/password-strength) | Medium | `Hash Table` `String` |
+| 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score) | Easy | `Hash Table` `Math` |
+| 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair) | Easy | `Bit Manipulation` |
+| 3954 | [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i) | Easy | `Bit Manipulation` `Dynamic Programming` `Enumeration` |
+| 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer) | Easy |  |
+| 3960 | [Frequency Balance Subarray](https://leetcode.com/problems/frequency-balance-subarray) | Medium |  |
+| 3961 | [Maximize Sum of Device Ratings](https://leetcode.com/problems/maximize-sum-of-device-ratings) | Medium |  |
+| 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path) | Easy |  |
+| 3968 | [Maximum Manhattan Distance After All Moves](https://leetcode.com/problems/maximum-manhattan-distance-after-all-moves) | Medium | `Counting` `Math` `String` |
+| 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i) | Medium | `Array` `Enumeration` `Hash Table` `Prefix Sum` `Sliding Window` |
+| 3970 | [Shortest Path With At Most K Consecutive Identical Characters](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters) | Medium | `Graph Theory` `Heap (Priority Queue)` `Shortest Path` `String` |
+| 3971 | [Maximum Total Value](https://leetcode.com/problems/maximum-total-value) | Hard | `Array` `Binary Search` `Greedy` `Math` |
+| 3974 | [Maximum Total Sum of K Selected Elements](https://leetcode.com/problems/maximum-total-sum-of-k-selected-elements) | Medium | `Array` `Greedy` `Sorting` |
+| 3975 | [Filter Occupied Intervals](https://leetcode.com/problems/filter-occupied-intervals) | Medium | `Array` `Sorting` |
+| 3976 | [Maximum Subarray Sum After Multiplier](https://leetcode.com/problems/maximum-subarray-sum-after-multiplier) | Medium | `Array` `Dynamic Programming` |
+| 3977 | [Minimum Time to Reach Target With Limited Power](https://leetcode.com/problems/minimum-time-to-reach-target-with-limited-power) | Hard | `Array` `Dynamic Programming` `Graph Theory` `Heap (Priority Queue)` `Shortest Path` |
+| 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element) | Easy |  |
+| 3979 | [Maximum Valid Pair Sum](https://leetcode.com/problems/maximum-valid-pair-sum) | Medium |  |
+| 3980 | [Minimum Operations to Transform Binary String](https://leetcode.com/problems/minimum-operations-to-transform-binary-string) | Medium |  |
+| 3981 | [Count Distinct Ways to Form Target from Two Strings](https://leetcode.com/problems/count-distinct-ways-to-form-target-from-two-strings) | Hard |  |
+| 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range) | Easy |  |
+| 3983 | [Subsequence After One Replacement](https://leetcode.com/problems/subsequence-after-one-replacement) | Medium |  |
+| 3984 | [Divisible Game](https://leetcode.com/problems/divisible-game) | Medium |  |
+| 3985 | [Palindromic Subarray Sum](https://leetcode.com/problems/palindromic-subarray-sum) | Hard |  |
 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times) | Easy |  |
 | 3987 | [Minimum Total Cost to Process All Elements](https://leetcode.com/problems/minimum-total-cost-to-process-all-elements) | Medium |  |
 | 3988 | [Create Grid With Exactly K Paths I](https://leetcode.com/problems/create-grid-with-exactly-k-paths-i) | Medium |  |
