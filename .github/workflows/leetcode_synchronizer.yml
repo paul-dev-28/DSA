@@ -1,23 +1,21 @@
-name: LeetCode Synchronizer
+name: Sync Leetcode
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 18 * * *"
-
-permissions:
-  contents: write
+    - cron: "0 8 * * 6"
 
 jobs:
-  synchronize:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run LeetCode Synchronizer
-        uses: paul-dev-28/LeetCode-Synchronizer@main
+      - name: Sync
+        uses: joshcai/leetcode-sync@v1.7
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
-          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
-          GIT_NAME: paul-dev-28
-          GIT_EMAIL: soumyadeep.dev.28@gmail.com
+          github-token: ${{ github.token }}
+          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
+          destination-folder: my-folder
+          verbose: true
+          commit-header: "[LeetCode Sync]"
